@@ -75,3 +75,79 @@ def add_one_car_per_day(cars, num_days):
 
 cars = []
 add_one_car_per_day(cars, 10)
+
+# what we want to see in the console: 
+# Adding new car to fleet. Fleet size is now 1.
+# Car 1: Picked up passenger. Car now has 1 passengers.
+# ---
+# Adding new car to fleet. Fleet size is now 2.
+# Car 1: Picked up passenger. Car now has 2 passengers.
+# Car 2: Picked up passenger. Car now has 1 passengers.
+# ---
+# Adding new car to fleet. Fleet size is now 3.
+# Car 1: Picked up passenger. Car now has 3 passengers.
+# Car 2: Picked up passenger. Car now has 2 passengers.
+# Car 3: Picked up passenger. Car now has 1 passengers.
+# ---
+# Adding new car to fleet. Fleet size is now 4.
+# Car 1: Drove to Mississauga. Remaining gas: 20%. Dropped off 3 passengers.
+# Car 2: Picked up passenger. Car now has 3 passengers.
+# Car 3: Picked up passenger. Car now has 2 passengers.
+# Car 4: Picked up passenger. Car now has 1 passengers.
+# ---
+# Adding new car to fleet. Fleet size is now 5.
+# Car 1: Picked up passenger. Car now has 1 passengers.
+# Car 2: Drove to Mississauga. Remaining gas: 20%. Dropped off 3 passengers.
+# Car 3: Picked up passenger. Car now has 3 passengers.
+# Car 4: Picked up passenger. Car now has 2 passengers.
+# Car 5: Picked up passenger. Car now has 1 passengers.
+# ---
+# Adding new car to fleet. Fleet size is now 6.
+# Car 1: Filled up to 100% on gas from 10%.
+# Car 2: Picked up passenger. Car now has 1 passengers.
+# Car 3: Drove to Mississauga. Remaining gas: 20%. Dropped off 3 passengers.
+# Car 4: Picked up passenger. Car now has 3 passengers.
+# Car 5: Picked up passenger. Car now has 2 passengers.
+# Car 6: Picked up passenger. Car now has 1 passengers.
+# ---
+# Adding new car to fleet. Fleet size is now 7.
+# Car 1: Picked up passenger. Car now has 2 passengers.
+# Car 2: Filled up to 100% on gas from 10%.
+# Car 3: Picked up passenger. Car now has 1 passengers.
+# Car 4: Drove to Mississauga. Remaining gas: 20%. Dropped off 3 passengers.
+# Car 5: Picked up passenger. Car now has 3 passengers.
+# Car 6: Picked up passenger. Car now has 2 passengers.
+# Car 7: Picked up passenger. Car now has 1 passengers.
+# ---
+# Adding new car to fleet. Fleet size is now 8.
+# Car 1: Picked up passenger. Car now has 3 passengers.
+# Car 2: Picked up passenger. Car now has 2 passengers.
+# Car 3: Filled up to 100% on gas from 10%.
+# Car 4: Picked up passenger. Car now has 1 passengers.
+# Car 5: Drove to Mississauga. Remaining gas: 20%. Dropped off 3 passengers.
+# Car 6: Picked up passenger. Car now has 3 passengers.
+# Car 7: Picked up passenger. Car now has 2 passengers.
+# Car 8: Picked up passenger. Car now has 1 passengers.
+# ---
+# Adding new car to fleet. Fleet size is now 9.
+# Car 1: Drove to London. Remaining gas: 30%. Dropped off 3 passengers.
+# Car 2: Picked up passenger. Car now has 3 passengers.
+# Car 3: Picked up passenger. Car now has 2 passengers.
+# Car 4: Filled up to 100% on gas from 10%.
+# Car 5: Picked up passenger. Car now has 1 passengers.
+# Car 6: Drove to Mississauga. Remaining gas: 20%. Dropped off 3 passengers.
+# Car 7: Picked up passenger. Car now has 3 passengers.
+# Car 8: Picked up passenger. Car now has 2 passengers.
+# Car 9: Picked up passenger. Car now has 1 passengers.
+# ---
+# Adding new car to fleet. Fleet size is now 10.
+# Car 1: Picked up passenger. Car now has 1 passengers.
+# Car 2: Drove to London. Remaining gas: 30%. Dropped off 3 passengers.
+# Car 3: Picked up passenger. Car now has 3 passengers.
+# Car 4: Picked up passenger. Car now has 2 passengers.
+# Car 5: Filled up to 100% on gas from 10%.
+# Car 6: Picked up passenger. Car now has 1 passengers.
+# Car 7: Drove to Mississauga. Remaining gas: 20%. Dropped off 3 passengers.
+# Car 8: Picked up passenger. Car now has 3 passengers.
+# Car 9: Picked up passenger. Car now has 2 passengers.
+# Car 10: Picked up passenger. Car now has 1 passengers.

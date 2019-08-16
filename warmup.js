@@ -63,10 +63,12 @@ for (let num = 0; num < 20; num  ++) {
 //   total += num
 // print(total)
 
-// HOW DO I DO THIS?! 
-for (let num = 0; num < 100; num++) {
-    let total = total ++ num 
-    console.log(`the total is ${total}.`)
 
+let total = 0
+
+for (let num = 0; num < 100; num++) {
+    total += num ;  
 }
+
+console.log(`the total is ${total}.`)
 
